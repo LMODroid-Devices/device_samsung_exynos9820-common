@@ -79,7 +79,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     product \
     odm
 
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/lmodroid/config/BoardConfigReservedSize.mk
 
 ## Filesystem
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -117,7 +117,7 @@ TARGET_KEYMASTER_VARIANT := samsung
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/device_framework_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/lmodroid/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
